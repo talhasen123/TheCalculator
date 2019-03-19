@@ -1,0 +1,120 @@
+JFDML JFormDesigner: "6.0.3.0.150" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space ::34:x, par l {comp panel3:::p:337:p, par t:::p {comp display::l::337:x, comp ongoingOperation::l::337:x, comp panel2::t::337:x, comp panel1::l::337:x}}, space :p:29:p}}"
+			"$verticalGroup": "par l {seq l {comp ongoingOperation:::p::p, space :::p, comp display:::p:60:p, space :::p, comp panel2:::p::p, space :::p, comp panel1:::p:117:p, space :::x, comp panel3:::p:28:p, space :::p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "display"
+				"text": "0"
+				"horizontalAlignment": 4
+				"font": new java.awt.Font( "Serif", 0, 20 )
+				"editable": false
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"columns": 3
+				"rows": 4
+				"hgap": 5
+				"vgap": 5
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "one"
+					"text": "1"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "two"
+					"text": "2"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "three"
+					"text": "3"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "four"
+					"text": "4"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "five"
+					"text": "5"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "six"
+					"text": "6"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "seven"
+					"text": "7"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "eight"
+					"text": "8"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "nine"
+					"text": "9"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "clear"
+					"text": "C"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "zero"
+					"text": "0"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "equals"
+					"text": "="
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel2"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "plus"
+					"text": "+"
+					"preferredSize": new java.awt.Dimension( 60, 30 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "minus"
+					"text": "-"
+					"preferredSize": new java.awt.Dimension( 60, 30 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "times"
+					"text": "X"
+					"preferredSize": new java.awt.Dimension( 60, 30 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "division"
+					"text": "÷"
+					"preferredSize": new java.awt.Dimension( 60, 30 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "ongoingOperation"
+				"editable": false
+				"foreground": new java.awt.Color( 153, 153, 255, 255 )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel3"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "root"
+					"text": "√"
+					"preferredSize": &Dimension0 new java.awt.Dimension( 78, 20 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "square"
+					"text": "x²"
+					"preferredSize": #Dimension0
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
